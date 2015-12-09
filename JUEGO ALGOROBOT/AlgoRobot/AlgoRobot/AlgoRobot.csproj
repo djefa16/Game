@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E97E1236-F4A8-4B1C-AB80-85328050169A}</ProjectGuid>
+    <ProjectTypeGuids>{9B831FEF-F496-498F-9FE8-180DA5CB4258};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>AlgoRobot</RootNamespace>
+    <AssemblyName>AlgoRobot</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="OpenTK">
+      <Package>opentk</Package>
+    </Reference>
+    <Reference Include="MonoGame.Framework.Linux">
+      <Package>monogame</Package>
+    </Reference>
+    <Reference Include="Lidgren.Network">
+      <Package>monogame</Package>
+    </Reference>
+    <Reference Include="Tao.Sdl">
+      <Package>tao-sdl</Package>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Animacion.cs" />
+    <Compile Include="Movimiento.cs" />
+    <Compile Include="PlayBad.cs" />
+    <Compile Include="Boss.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="Colision1.cs" />
+    <Compile Include="Pantalla.cs" />
+    <Compile Include="MainMenu.cs" />
+    <Compile Include="GUIElement.cs" />
+    <Compile Include="Game1.cs" />
+    <Compile Include="Archivos.cs" />
+    <Compile Include="Pantallas.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon.png" />
+    <None Include="Content\Texturas\AnimacionExplo\explosion00.png" />
+    <None Include="Content\Texturas\AnimacionExplo\explosion01.png" />
+    <None Include="Content\Texturas\Boss\boss00.png" />
+    <None Include="Content\Texturas\Boss\boss00cut.png" />
+    <None Include="Content\Texturas\Boss\boss01.png" />
+    <None Include="Content\Texturas\Boss\boss01cut.png" />
+    <None Include="Content\Texturas\Boss\boss02.png" />
+    <None Include="Content\Texturas\Boss\boss02cut.png" />
+    <None Include="Content\Texturas\Boss\boss03.png" />
+    <None Include="Content\Texturas\Boss\boss03cut.png" />
+    <None Include="Content\Texturas\Enemy\bad00.png" />
+    <None Include="Content\Texturas\Enemy\bad01.png" />
+    <None Include="Content\Texturas\Menu\menu00.png" />
+    <None Include="Content\Texturas\Menu\menu01.png" />
+    <None Include="Content\Texturas\Menu\menu02.png" />
+    <None Include="Content\Texturas\Menu\menu03.png" />
+    <None Include="Content\Texturas\Menu\menu04.png" />
+    <None Include="Content\Texturas\Menu\menu05.png" />
+    <None Include="Content\Texturas\Menu\Botones\atras.png" />
+    <None Include="Content\Texturas\Menu\Botones\reanudar.png" />
+    <None Include="Content\Texturas\Menu\Botones\salir.png" />
+    <None Include="Content\Texturas\Menu\Botones\top ranking.png" />
+    <None Include="Content\Texturas\Menu\Botones\tutorial.png" />
+    <None Include="Content\Texturas\placa\placa00.png" />
+    <None Include="Content\Texturas\Boss\boss04.png" />
+    <None Include="Content\Media\Sonidos\boss\boss00.wav" />
+    <None Include="Content\Media\Sonidos\enemy\bad00.wav" />
+    <None Include="Content\Media\Sonidos\explosion\explo00.wav" />
+    <None Include="Content\Media\Sonidos\explosion\explo01.wav" />
+    <None Include="Content\Media\Sonidos\impacto\impact00.wav" />
+    <None Include="Content\Media\Sonidos\impacto\impact01.wav" />
+    <None Include="Content\Media\Sonidos\impacto\impact02.wav" />
+    <None Include="Content\MyFont.xnb" />
+    <None Include="Content\Texturas\Menu\Botones\comenzar.png" />
+    <None Include="Content\Texturas\Menu\Botones\continuar.png" />
+    <None Include="Content\Texturas\Menu\menu06.png" />
+    <None Include="Content\Texturas\Menu\menu07.png" />
+    <None Include="Content\Texturas\Player\player00.png" />
+    <None Include="Content\Texturas\Player\player01.png" />
+    <None Include="Content\Texturas\Player\player02.png" />
+    <None Include="Content\Texturas\Player\player03.png" />
+    <None Include="Content\Texturas\Player\player04.png" />
+    <None Include="Content\Texturas\Player\player05.png" />
+    <None Include="Content\Texturas\Player\player06.png" />
+    <None Include="Content\Media\Sonidos\player\play00.wav" />
+    <None Include="Content\Media\Sonidos\player\play01.wav" />
+    <None Include="Content\Media\Sonidos\player\play02.wav" />
+    <None Include="Content\Media\Sonidos\player\play03.wav" />
+    <None Include="Content\Texturas\Enemy\bad02.png" />
+    <None Include="Content\Texturas\Pantallas\pantalla00.png" />
+    <None Include="Content\Texturas\Pantallas\pantalla01.png" />
+    <None Include="Content\Texturas\Pantallas\pantalla02.png" />
+    <None Include="Content\Texturas\Pantallas\pantalla03.png" />
+    <None Include="Content\Media\Musica\Musica.txt" />
+    <None Include="Content\Media\Musica\mus00.wav" />
+    <None Include="Content\Media\Musica\mus01.wav" />
+    <None Include="Content\Media\Musica\mus02.wav" />
+    <None Include="Content\Media\Sonidos\menu\menu00.wav" />
+    <None Include="Content\Media\Sonidos\menu\menu01.wav" />
+    <None Include="Content\Media\Sonidos\menu\menu02.wav" />
+    <None Include="Content\Texturas\Menu\Botones\pmenu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Content\" />
+    <Folder Include="Content\Texturas\" />
+    <Folder Include="Content\Media\" />
+    <Folder Include="Content\Texturas\Player\" />
+    <Folder Include="Content\Media\Sonidos\player\" />
+    <Folder Include="Content\Texturas\Pantallas\" />
+    <Folder Include="Content\Media\Musica\" />
+    <Folder Include="Content\Media\Sonidos\menu\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>
