@@ -196,10 +196,10 @@ namespace AlgoRobot
 			}
 
 			bonus = false;
-			if (puntbonus >= 100)   
+			if (puntbonus >= 150)   
 			{
 				bonus = true;
-				puntbonus = puntbonus-100;	
+				puntbonus = puntbonus-150;	
 			}
 
 			if (play.muerto == true)

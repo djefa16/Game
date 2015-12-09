@@ -43,7 +43,7 @@ namespace AlgoRobot
 		{
 
 			vida = 3;
-			vitalidad = 300;
+			vitalidad = 280;
 			timetrans =30000;
 			colorplay = Color.White;
 			velocidad = 8;

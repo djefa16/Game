@@ -1,19 +1,19 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="AlgoRobot/Pantalla.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AlgoRobot/Game1.cs">
     <Files>
-      <File FileName="AlgoRobot/Game1.cs" Line="83" Column="18" />
+      <File FileName="AlgoRobot/Game1.cs" Line="164" Column="5" />
       <File FileName="AlgoRobot/MainMenu.cs" Line="64" Column="19" />
-      <File FileName="AlgoRobot/Pantalla.cs" Line="37" Column="19" />
-      <File FileName="AlgoRobot/Colision1.cs" Line="39" Column="9" />
-      <File FileName="AlgoRobot/PlayBad.cs" Line="1" Column="1" />
-      <File FileName="AlgoRobot/Player.cs" Line="221" Column="10" />
+      <File FileName="AlgoRobot/Pantalla.cs" Line="202" Column="29" />
+      <File FileName="AlgoRobot/Colision1.cs" Line="1" Column="1" />
+      <File FileName="AlgoRobot/PlayBad.cs" Line="94" Column="8" />
+      <File FileName="AlgoRobot/Player.cs" Line="46" Column="19" />
       <File FileName="AlgoRobot/Movimiento.cs" Line="1" Column="1" />
       <File FileName="AlgoRobot/Boss.cs" Line="1" Column="1" />
       <File FileName="AlgoRobot/Animacion.cs" Line="1" Column="1" />
-      <File FileName="AlgoRobot/GUIElement.cs" Line="82" Column="1" />
-      <File FileName="AlgoRobot/Program.cs" Line="31" Column="1" />
-      <File FileName="AlgoRobot/Archivos.cs" Line="180" Column="16" />
+      <File FileName="AlgoRobot/GUIElement.cs" Line="1" Column="1" />
+      <File FileName="AlgoRobot/Program.cs" Line="1" Column="1" />
+      <File FileName="AlgoRobot/Archivos.cs" Line="1" Column="1" />
       <File FileName="AlgoRobot/Pantallas.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>

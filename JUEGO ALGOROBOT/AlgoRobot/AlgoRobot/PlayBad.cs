@@ -41,8 +41,8 @@ namespace AlgoRobot
 		
 		{
 			i = 0;
-			timecolor = 22000;
-			vitalidad = 10;
+			timecolor = 15000;
+			vitalidad = vitali;
 			valor = vitalidad;
 			shot = shotb;
 			badAnimacion = new Animacion();
@@ -97,6 +97,7 @@ namespace AlgoRobot
 					  i++;   
 					  edamage += 2;
 					  valor += 2;
+					  vitalidad += 2;
 				  }
 			    
 				 elapsedtime = 0;

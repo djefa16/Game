@@ -143,7 +143,7 @@ namespace AlgoRobot
 
 			for (i=0 ; i < vitalen.Length ; i++)
 			{
-				vitalen [i] = 1+ (i*5);
+				vitalen [i] = 15 + (i*5);
 
 			}
 
@@ -161,8 +161,8 @@ namespace AlgoRobot
 
 			for (i=0 ; i < cantenem.Length ; i++)
 			{
-				//cantenem [i] = 10 + (i*5);
-				cantenem [i] = 2;
+				cantenem [i] = 10 + (i*5);
+
 			}
 
 			//fuente:
